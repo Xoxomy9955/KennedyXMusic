@@ -14,7 +14,7 @@ from helpers.channelmusic import get_chat_id
 from callsmusic import callsmusic
 from callsmusic.queues import queues
 from helpers.admins import get_administrators
-from youtube_search import YoutubeSearch
+from yt_dlp import YoutubeSearch
 from callsmusic.callsmusic import client as USER
 from pyrogram.errors import UserAlreadyParticipant
 from downloaders import youtube
